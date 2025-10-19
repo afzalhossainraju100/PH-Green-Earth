@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/hero-leaf1.png" />
+    <title>Green Earth</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar bg-[#15803D] shadow-sm text-[white] md:px-15">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="-1"
+              class="menu menu-sm dropdown-content bg-[#15803D] text-[white] rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a>About</a></li>
+              <li><a>Gallery</a></li>
+              <li><a>Plant a Tree</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Green Earth</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>About</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Plant a Tree</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn rounded-full bg-[#FACC15] border-none">Plant a Tree</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="banner bg-[#cff0dc] h-full">
+        <div class="flex">
+          <div class="">
+            <img class="w-[34rem] h-[24rem]" src="./assets/hero-leaf1.png" alt="" />
+          </div>
+          <div class="flex flex-col justify-center items-center space-y-2">
+            <h1
+              class="text-[#1f2937] text-[1.5rem] md:text-[2.8rem] font-[700] md:leading-[3rem] text-center"
+            >
+              Plant a Tree, Grow a Future
+            </h1>
+            <p
+              class="text-[#1f2937] text-[1rem] font-[400] md:leading-[1.5rem] text-center"
+            >
+              Join our mission to plant 1 million trees and make the Earth
+              greener for future generations.
+            </p>
+            <button
+              class="btn rounded-full bg-[#FACC15] border-none text-[1rem] font-[500] text-center leading-none mt-2"
+            >
+              Get Involved
+            </button>
+          </div>
+          <div class=""><img class="w-[34rem] h-[24rem]" src="./assets/hero-leaf2.png" alt="" /></div>
+        </div>
+      </section>
+
+      <section class="mt-5">
+        <div>
+          <div></div>
+          <div class="griddiv"></div>
+        </div>
+      </section>
+      <section class="about">
+        <div>
+          <h1 class="text-[#1f2937] text-[1.5rem] md:text-[2rem] font-[600] md:leading-[2.5rem] text-center">About the Campaign</h1>
+          <div>
+            <div ><img class="bg-red-700 rounded-lg md:w-[33rem] md:h-[33rem]" src="./assets/about.png" alt="" /></div>
+            <div>
+                <p>Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
